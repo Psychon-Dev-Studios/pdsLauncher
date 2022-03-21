@@ -1,0 +1,21 @@
+THESE TERMS AND CONDITIONS GOVERN YOUR LEGAL USE OF THE SOFTWARE. VIOLATION, MODIFICATION, OR WILLFUL DISREGARD OF THESE TERMS AND CONDITIONS WILL RESULT IN THE REVOCATION OF YOUR SOFTWARE LICENSE.INSTALLATION OF THIS SOFTWARE AND ALL SOFTWARE PROVIDED DURING USE IS SUBJECT TO THE GitHub TERMS OF SERVICE. VIOLATING THEIR TERMS VIOLATES THESE TERMS.
+THESE TERMS AND CONDITIONS FULLY APPLY TO THE LAUNCHER, ALL PDS INC. GAMES, AND THIS INSTALLER.
+
+IF YOU ARE NOT A RESIDENT OF THE UNITED STATES, YOU MAY NOT USE THIS SOFTWARE. THIS SOFTWARE IS LICENSED FOR USA POPULATIONS ONLY.
+
+We know it's tempting to ignore these terms and conditions, but they contain important information regarding the software, your legal use of the software, and what you are agreeing to let the software do without further consent. Please, read these terms carefully
+
+1. INSTALLING THE LAUNCHER
+By proceeding with the installtion, you agree that: a) this program can access external, web-based resources to download files to your hard drive, b) this program can install 3rd-party applications to contribute to the launcher experience, and c) third-party organizations and service providers may collect limited device information, such as your IP address, geographical location, or other personally identifiable information. You also agree that the launcher may contain bugs and vulnerabilities that may reduce functionality, and that inturrupting your wireless internet connection during installation may cause damage to the launcher's files. In addition, by using the software, you agree that the installer may access internet resources when required, without prior user consent (e.g. for automatic updates).
+
+2. INSTALLING GAMES
+By using the launcher, you are being provided LIMITED licenses to play PDS Inc.'s games, free of charge. However, you may NOT: a) copy or distribute the game files, b) attempt to or successfully read, parse, access, or share the source code, or, c) share the game files in any way. You may NOT allow other people to access and use your installation of the launcher or the games provided. YOU MAY NOT, UNDER ANY CIRCUMSTANCE, ATTEMPT TO PERFORM ANY ACTION THAT MAY EVEN POTENTIALLY HARM PDS INC. OR THEIR PRODUCTS. However, you may provide the OFFICIAL GITHUB LINK to the installer.
+
+3. LAUNCHER AND GAME CONDITIONS
+Using a customized, or otherwise unofficial, launcher, or similar software, to access PDS games, is strictly prohibited. You may only use the launcher provided by PDS Inc. themselves to access PDS Inc. games.
+
+4. AGE RESTRICTIONS
+By installing any PDS Inc. software, you acknowledge that some games may include content not subtible for young children under 13 years of age. By continuing, you confirm that you are either: a) aged 13 or older in the USA, or b) have full parental consent to install this software. If neither apply to you, you may not install the launcher or other software.
+
+5. DEVICE RESTRICTIONS
+While, under most circumstances, it's okay to install this software on your personal device, there are still restrictions. You may NOT install the launcher or related software on any: a) publically-accessible computers (e.g. a library computer), b) shared devices (e.g. a device you and your co-workers remote into), or c) accounts or publically-accessible directories (e.g. a shared account, or a directory accessible to multiple accounts). YOU ONLY HAVE ONE LICENSE FOR THIS SOFTWARE. EVERY PERSON WHO USES THE SOFTWARE MUST HAVE THEIR OWN LICENSE.
