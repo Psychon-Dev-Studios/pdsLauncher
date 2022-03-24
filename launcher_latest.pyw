@@ -48,15 +48,15 @@ def RELOAD():
 
     a1_title = tk.Label(root, text="Arachna", background="lightgray", font=appTitle, foreground=appTitleColor)
     a1 = tk.Button(root, textvariable=a1_play_text, width=45, command=a1_proxy, background="lightblue")
-    a1_update = tk.Button(root, text="Check for Updates", width=45, command=arachna_updater)
+    a1_update = tk.Button(root, text="Check for Updates", width=45, command=a1_update_proxy)
     a1_remove = tk.Button(root, text="Uninstall", width=45, command=arachna_uninstall)
     a2_title = tk.Label(root, text="Arachna 2", background="lightgray", font=appTitle, foreground=appTitleColor)
     a2 = tk.Button(root, textvariable=a2_play_text, width=45, command=a2_proxy, background="lightblue")
-    a2_update = tk.Button(root, text="Check for Updates", width=45, command=arachna2_updater)
+    a2_update = tk.Button(root, text="Check for Updates", width=45, command=a2_update_proxy)
     a2_remove = tk.Button(root, text="Uninstall", width=45, command=arachna2_uninstall)
     a3_title = tk.Label(root, text="Arachnia", background="lightgray", font=appTitle, foreground=appTitleColor)
     a3 = tk.Button(root, textvariable=a3_play_text, width=45, command=a3_proxy, background="lightblue")
-    a3_update = tk.Button(root, text="Check for Updates", width=45, command=arachnia_updater)
+    a3_update = tk.Button(root, text="Check for Updates", width=45, command=a3_update_proxy)
     a3_remove = tk.Button(root, text="Uninstall", width=45, command=arachnia_uninstall)
     cxr_title = tk.Label(root, text="CamX: Rebirth", background="lightgray", font=appTitle, foreground=appTitleColor)
     cxr = tk.Button(root, textvariable=cxr_play_text, width=45, command=cxr_proxy, background="lightblue")
@@ -142,6 +142,18 @@ def a3_proxy():
 
 def cxr_proxy():
     td(name="proxyscript", target=cxr).start()
+
+def a1_update_proxy():
+    td(name="proxyscript", target=arachna_updater).start()
+
+def a2_update_proxy():
+    td(name="proxyscript", target=arachna2_updater).start()
+
+def a3_update_proxy():
+    td(name="proxyscript", target=arachnia_updater).start()
+
+def cxr_update_proxy():
+    td(name="proxyscript", target=cxr_updater).start()
 
 def arachna():
     global a1_installed
