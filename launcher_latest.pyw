@@ -60,7 +60,7 @@ def RELOAD():
     a3_remove = tk.Button(root, text="Uninstall", width=45, command=arachnia_uninstall)
     cxr_title = tk.Label(root, text="CamX: Rebirth", background="lightgray", font=appTitle, foreground=appTitleColor)
     cxr = tk.Button(root, textvariable=cxr_play_text, width=45, command=cxr_proxy, background="lightblue")
-    cxr_update = tk.Button(root, text="Check for Updates", width=45, command=cxr_updater)
+    cxr_update = tk.Button(root, text="Check for Updates", width=45, command=cxr_update_proxy)
     cxr_remove = tk.Button(root, text="Uninstall", width=45, command=cxr_uninstall)
     blank = tk.Label(root, text="", font=("Helvica", 15), background="lightgray")
     launcher_title = tk.Label(root, text="Launcher", background="lightgray", font=appTitle, foreground=appTitleColor)
@@ -273,8 +273,8 @@ def arachna_updater():
             local.write(mirror)
             local.close()
 
-            sleep(2)
             a1_play_text.set("Play")
+            messagebox.showinfo("PDS Launcher - Updater", "Game has updated successfully!")
 
         else:
             messagebox.showinfo("PDS Launcher - Updater", "Game is already up-to-date!")
@@ -307,8 +307,8 @@ def arachna2_updater():
             local.write(mirror)
             local.close()
 
-            sleep(2)
             a2_play_text.set("Play")
+            messagebox.showinfo("PDS Launcher - Updater", "Game has updated successfully!")
 
         else:
             messagebox.showinfo("PDS Launcher - Updater", "Game is already up-to-date!")
@@ -340,8 +340,8 @@ def arachnia_updater():
             local.write(mirror)
             local.close()
 
-            sleep(2)
             a3_play_text.set("Play")
+            messagebox.showinfo("PDS Launcher - Updater", "Game has updated successfully!")
 
         else:
             messagebox.showinfo("PDS Launcher - Updater", "Game is already up-to-date!")
@@ -374,8 +374,8 @@ def cxr_updater():
             local.write(mirror)
             local.close()
 
-            sleep(2)
             cxr_play_text.set("Play")
+            messagebox.showinfo("PDS Launcher - Updater", "Game has updated successfully!")
 
         else:
             messagebox.showinfo("PDS Launcher - Updater", "Game is already up-to-date!")
