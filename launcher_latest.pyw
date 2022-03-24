@@ -387,7 +387,7 @@ def cxr_uninstall():
 
 def launcher_updater():
         try:
-            mirror = str(urlRequest.urlopen(MIRROR_LOCATION + "/launcher.pyw").read(), "'UTF-8'")
+            mirror = str(urlRequest.urlopen(MIRROR_LOCATION + "/launcher_latest.pyw").read(), "'UTF-8'")
             local = open(PATH + "/launcher.pyw", "w")
 
             if not (local == mirror):
